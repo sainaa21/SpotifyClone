@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="cross.svg" alt="">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo"><img class="invert logo-img" src="logo.svg" alt="logo"><span>Spotify</span></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="playlist">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="welcomeText">
+                    <h2>Looks quiet here…</h2>
+                    <p>Start playing something you love from playslists</p>
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/">Legal</a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/">Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/">Privacy Policy</a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/">Accessibility</a></div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right bg-gray rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerCont">
+                        <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+                        <img src="left.svg" alt="icon">
+                        <img src="right.svg" alt="icon">
+                    </div>
+
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer"> </div>
+
+                <div class="welcomeBlock">
+                    <h2>🎧 Welcome to Spotify Web</h2>
+                    <p>Choose a playlist and play a song to get started !</p>
+                </div>
+
+                <div class="playbar">
+                    <div class="seekBar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="playbar2">
+                        <div class="songInfo">
+                        </div>
+                        <div class="songButtons">
+                            <!--<button id="playBtn">Play Song</button>-->
+
+                            <img id="previous" src="prevsong.svg" alt="prev">
+                            <img id="play" src="play.svg" alt="play">
+                            <img id="next" src="nextsong.svg" alt="next">
+                        </div>
+                        <div class="TimeVol">
+                            <div class="songTime">
+                            </div>
+                            <div class="volume">
+                                <img width="25px" src="volume.svg" alt="">
+                                <div class="range invert">
+                                    <input type="range" name="volume" id="">
+                                    <!--To change the range (volume) slider color to white, you need to style the slider track and thumb using CSS pseudo-elements. Default sliders can’t be colored with normal background-color.-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

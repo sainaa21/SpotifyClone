@@ -1,0 +1,13 @@
+{
+  "albums": [
+    { "folder": "chill", "title": "Chill", "description": "Relaxing songs" },
+    { "folder": "happy", "title": "Happy", "description": "Feel good music" },
+    { "folder": "indie", "title": "Indie", "description": "Indie vibes" },
+    { "folder": "night rain", "title": "Night Rain", "description": "Late night mood" },
+    { "folder": "party", "title": "Party", "description": "Party hits" },
+    { "folder": "pop", "title": "Pop", "description": "Popular tracks" },
+    { "folder": "road trip", "title": "Road Trip", "description": "Travel songs" },
+    { "folder": "rock", "title": "Rock", "description": "Rock classics" },
+    { "folder": "sleep", "title": "Sleep", "description": "Calm & sleep music" }
+  ]
+}
